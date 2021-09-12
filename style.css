@@ -1,0 +1,91 @@
+body {
+ font-family: Arial, "Times New Roman", sans-serif;
+ font-size: 16px;
+ background-color: #e6e0e0;	
+}
+ol, ul {
+	list-style: none;
+}
+#wrap {
+	background-color: white;
+	width: 960px;
+	border: 1px solid #000;
+	margin: 0 auto;
+}
+#innerwrap {
+	background-image: url(../images/1.jfif);
+	background-repeat: repeat-x;
+}
+#mainnav {
+	background-color: #2aa4f3;
+	height: 35px;
+}
+#mainnav li {
+	float: left;
+	width: 120px;
+	height: 35px;
+	background-color: #7d83a4;
+	text-align: center;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	line-height: 35px;
+}
+#mainnav a {
+	text-decoration: none;
+	color: #fff;
+
+}
+#sidebar {
+	float: left;
+	width: 300px;
+}
+#main {
+	float: right;
+	width: 600px;
+}
+#mainnav a:hover{
+	color: red;
+}
+#innerwrap:after{
+	clear: both;
+	display: block;
+	height: 0;
+	content: "";
+}
+#sidebar p, #sidebar h2, #sidebar h3, #sidebar h4, #main p, #main h1, #main h2, #main h3 {
+	margin-left: 20px;
+	margin-right:20px ;
+}
+p, li {
+	font-size: 0.875 em;
+	line-height: 1.75em;
+}
+h1 {
+	font-size: 1.5em;
+	line-height: 1.5em;
+	font-weight: normal;
+}
+h2 {
+	font-size: 1.125em;
+	font-weight: lighter;
+	text-transform: uppercase;
+	line-height: 1.5em;
+	letter-spacing: 0.2em;
+}
+h3 {
+	font-size: 0.875em;
+	letter-spacing: 0.1em;
+}
+#bioclass {
+	margin: 20px;
+}
+table {
+	margin: 0 auto;
+	border-color: #efefef;
+}
+#slogan {
+	position: absolute;
+	height: 80px;
+	top: 60px;
+	left: 430px;
+}
